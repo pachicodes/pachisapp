@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pachi Codes | Why Appwrite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --pink: hsl(343, 90%, 56%);
+            --pink-light: hsl(343, 90%, 65%);
+            --pink-dark: hsl(343, 90%, 45%);
+            --green: #00d68f;
+            --green-light: #00e89d;
+            --green-dark: #00b377;
+            --black: #0a0a0a;
+            --black-light: #141414;
+            --black-medium: #1a1a1a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--black);
+            min-height: 100vh;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--pink) 0%, var(--green) 100%);
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            font-weight: bold;
+            box-shadow: 0 8px 32px rgba(0, 214, 143, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            background: linear-gradient(90deg, #ffffff, #e0e0e0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: var(--green);
+            font-size: 1.1rem;
+        }
+
+        .section {
+            background: var(--black-light);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .section h2::before {
+            content: '';
+            width: 4px;
+            height: 24px;
+            background: linear-gradient(180deg, var(--green), var(--green-dark));
+            border-radius: 2px;
+        }
+
+        .why-appwrite {
+            background: linear-gradient(135deg, rgba(0, 214, 143, 0.05) 0%, var(--black-light) 100%);
+            border: 1px solid rgba(0, 214, 143, 0.2);
+        }
+
+        .why-appwrite h2::before {
+            background: linear-gradient(180deg, var(--pink), var(--pink-dark));
+        }
+
+        p {
+            color: #c0c0c0;
+            font-size: 1.05rem;
+        }
+
+        .highlight {
+            color: var(--pink);
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            color: #606060;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--green);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: var(--green-light);
+            text-decoration: underline;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .links a {
+            color: #ffffff;
+            background: var(--black-medium);
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .links a:hover {
+            background: rgba(0, 214, 143, 0.15);
+            border-color: var(--green);
+            color: var(--green);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="avatar">P</div>
+            <h1>Pachi Codes</h1>
+            <p class="subtitle">Developer Advocate & Community Builder</p>
+            <div class="links">
+                <a href="https://github.com/pachicodes" target="_blank">GitHub</a>
+                <a href="https://twitter.com/pachicodes" target="_blank">Twitter</a>
+                <a href="https://linkedin.com/in/pachicodes" target="_blank">LinkedIn</a>
+            </div>
+        </header>
+
+        <section class="section why-appwrite">
+            <h2>Why Appwrite</h2>
+            <p>
+                Because Appwrite feels like it's built by people who actually care about how developers <span class="highlight">*feel*</span> when they use a tool.
+            </p>
+            <p style="margin-top: 16px;">
+                I like products that don't just ship features, but think about <span class="highlight">clarity, learning, and the long-term relationship</span> with their users. Appwrite is open source, opinionated in a good way, and clearly trying to reduce complexity instead of adding to it. That matters to me.
+            </p>
+            <p style="margin-top: 16px;">
+                I'm also drawn to teams where documentation, writing, and collaboration are treated as <span class="highlight">core work</span>, not side quests. From the outside, Appwrite looks like a place where good docs and developer experience are part of the product itself. That's exactly the kind of thing I want to help build.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>About Me</h2>
+            <p>
+                I'm a developer advocate who loves building communities and helping developers succeed. I believe in the power of open source, inclusive communities, and making tech accessible to everyone. When I'm not coding or creating content, you can find me mentoring aspiring developers and contributing to projects that make a difference.
+            </p>
+        </section>
+
+        <footer>
+            <p>Built with ❤️ and deployed on <a href="https://appwrite.io" target="_blank">Appwrite Sites</a></p>
+        </footer>
+    </div>
+</body>
+</html>
